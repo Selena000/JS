@@ -87,6 +87,47 @@ class MPromise {
   	})
   	return promise2
   }
+
+  resolve(val) {
+  	return new MPromise((resolve, reject) => {
+  		resolve(val)
+  	})
+  }
+
+  reject(reason) {
+  	return new MPromise((resolve, reject) => {
+  		reject(reason)
+  	})
+  }
+
+  race(promises) {
+  	return new MPromise((resolve, reject) => {
+  		for (let i = 0; i < promises.length; i++) {
+  			promises[i].then(resolve, reject)
+  		}
+  	})
+  } 
+
+  all(promises) {
+  	let arr = []
+  	let i = 0
+
+  	function proccessData(index, data) {
+    	arr[index] = data
+    	i ++;
+    	if (i === promises.length) {
+    		resolve(arr)
+    	}
+  	}
+
+  	return new MPromise((resolve, reject) => {
+  		for (let i = 0; i < promises.length; i++) {
+  			promises[i].then(data => {
+  				proccessData(i, data)
+  			}, reject)
+  		}
+  	})
+  }
 }
 
 function resolvePromise(promise2, x, resolve, reject) {
