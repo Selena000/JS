@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS + CSS 实现菜单平缓过度</title>
+	<!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
+	<style type="text/css">
+		ul {
+		    margin: 0;
+		    padding: 0;
+		}
+		.demo-ul {
+		    margin: 0 20%;
+		}
+		.demo-ul a {
+		    color: white;
+		    text-decoration: none;
+		}
+		.demo-li, .demo-ul ul li {
+		    list-style: none;
+		}
+		.demo-li, .demo-ul ul li {
+		    width: 120px;
+		    background: #f90;
+		    float: left;
+		    text-align: center;
+		    line-height: 40px;
+		    font-size: 20px;
+		    height: 40px;
+		    cursor: pointer;
+		}
+		.demo-ul li ul {
+		    height: 0;
+		    transform: scaleY(0);
+		    transition: height, transform .0s;
+		}
+		.demo-ul li:hover ul {
+		    transform: scaleY(1)
+		}
+		.demo-ul ul li {
+		    background: #0099ff;
+		}
+
+		.clear {
+		    clear: both;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function() {
+			var oUls = document.getElementsByClassName('demo-ul')[0].getElementsByTagName('ul')
+
+			for (var i = 0; i < oUls.length; i++) {
+				oUls[i].style.transition = 'height, transform .5s'
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<ul class="demo-ul">
+
+		<li class="demo-li">
+			<a href="javascript:;">菜单</a>
+			<ul>
+				<li><a href="#">div</a></li>
+				<li><a href="#">css</a></li>
+			</ul>
+		</li>
+
+		<li class="demo-li">
+			<a href="javascript:;">菜单2</a>
+			<ul>
+				<li><a href="#">string</a></li>
+				<li><a href="#">object</a></li>
+			</ul>
+		</li>
+
+		<li class="demo-li">
+			<a href="javascript:;">课程</a>
+			<ul>
+				<li><a href="#">string</a></li>
+				<li><a href="#">object</a></li>
+			</ul>
+		</li>
+
+		<li class="demo-li">
+			<a href="javascript:;">JavaScript</a>
+			<ul>
+				<li><a href="#">string</a></li>
+				<li><a href="#">object</a></li>
+			</ul>
+		</li>
+
+		<li class="demo-li">
+			<a href="javascript:;">Node.js</a>
+			<ul>
+				<li><a href="#">string</a></li>
+				<li><a href="#">object</a></li>
+			</ul>
+		</li>
+		<div class="clear"></div>
+	</ul>
+</body>
+</html>

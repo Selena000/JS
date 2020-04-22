@@ -36,6 +36,47 @@ Array.prototype.distinct = function() {
 	3.排序
 */
 
-var arr = [1, 23, 11, 9, 8]
-arr.sort((a, b) => a - b) // 升序
-arr.sort((a, b) => b - a) // 降序
+// var arr = [1, 23, 11, 9, 8]
+// // arr.sort((a, b) => a - b) // 升序
+// arr.sort((a, b) => b - a) // 降序
+
+
+/**
+	4.求和
+*/
+[1, 2, 3].reduce((prev, curr) => {
+	return prev + curr
+}, 0)
+
+function sum(arr) {
+	if (arr.length === 0) {
+		return 0
+	}
+	if (arr.length === 1) {
+		return arr[0]
+	}
+	return arr[0] + sum(slice(1))
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
