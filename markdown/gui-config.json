@@ -1,0 +1,261 @@
+{
+  "configs": [
+    {
+      "server": "usa.fox5.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "美国",
+      "timeout": 5
+    },
+    {
+      "server": "usa.fox.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "美国",
+      "timeout": 5
+    },
+    {
+      "server": "usa.fox6.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "美国",
+      "timeout": 5
+    },
+    {
+      "server": "kr.fox2.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "韩国",
+      "timeout": 5
+    },
+    {
+      "server": "kr.fox.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "韩国",
+      "timeout": 5
+    },
+    {
+      "server": "kr.fox1.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "韩国",
+      "timeout": 5
+    },
+    {
+      "server": "kr.fox4.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "韩国",
+      "timeout": 5
+    },
+    {
+      "server": "jp.fox2.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "日本",
+      "timeout": 5
+    },
+    {
+      "server": "jp.fox.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "日本",
+      "timeout": 5
+    },
+    {
+      "server": "jp.fox1.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "日本",
+      "timeout": 5
+    },
+    {
+      "server": "jp.fox4.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "日本",
+      "timeout": 5
+    },
+    {
+      "server": "sg.fox3.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "新加坡",
+      "timeout": 5
+    },
+    {
+      "server": "sg.fox1.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "新加坡",
+      "timeout": 5
+    },
+    {
+      "server": "hk.fox.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "香港",
+      "timeout": 5
+    },
+    {
+      "server": "hk.fox1.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "香港",
+      "timeout": 5
+    },
+    {
+      "server": "tw.fox.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "台湾",
+      "timeout": 5
+    },
+    {
+      "server": "tw.fox1.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "台湾",
+      "timeout": 5
+    },
+    {
+      "server": "tw.fox2.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "台湾",
+      "timeout": 5
+    },
+    {
+      "server": "usa.fox3.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "美国",
+      "timeout": 5
+    },
+    {
+      "server": "fox1.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "美国",
+      "timeout": 5
+    },
+    {
+      "server": "uk.fox.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "英国",
+      "timeout": 5
+    },
+    {
+      "server": "fr.fox.tiaozaojiasu.com",
+      "server_port": 14230,
+      "password": "qp3YElj531",
+      "method": "aes-256-cfb",
+      "plugin": "",
+      "plugin_opts": "",
+      "remarks": "德国",
+      "timeout": 5
+    }
+  ],
+  "strategy": "com.shadowsocks.strategy.ha",
+  "index": -1,
+  "global": false,
+  "enabled": true,
+  "shareOverLan": false,
+  "isDefault": false,
+  "localPort": 1080,
+  "pacUrl": null,
+  "useOnlinePac": false,
+  "secureLocalPac": true,
+  "availabilityStatistics": false,
+  "autoCheckUpdate": false,
+  "checkPreRelease": false,
+  "isVerboseLogging": true,
+  "logViewer": {
+    "topMost": false,
+    "wrapText": false,
+    "toolbarShown": false,
+    "Font": "Consolas, 8pt",
+    "BackgroundColor": "Black",
+    "TextColor": "White"
+  },
+  "proxy": {
+    "useProxy": false,
+    "proxyType": 0,
+    "proxyServer": "",
+    "proxyPort": 0,
+    "proxyTimeout": 3
+  },
+  "hotkey": {
+    "SwitchSystemProxy": "",
+    "SwitchSystemProxyMode": "",
+    "SwitchAllowLan": "",
+    "ShowLogs": "",
+    "ServerMoveUp": "",
+    "ServerMoveDown": ""
+  }
+}

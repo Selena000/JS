@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.demo-div {
+			width: 100px;
+			height: 100px;
+			border-radius: 100px;
+			background: yellowgreen;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function() {
+			var oDiv = document.getElementsByClassName('demo-div')[0]
+			var timer = null
+
+			move(oDiv, 5)
+
+			function move(element, time) {
+				var l = element.offsetLeft
+				var t = element.offsetTop
+				var start = 1
+
+				clearInterval(timer)
+
+				console.log('l:', l)
+				console.log('t:', t)
+				console.log('start move from l: ', l, ' top: ', top)
+
+				setTimeout(() => {
+					clearInterval(timer)
+				}, time * 1000)
+
+				timer = setInterval(function() {
+					element.style.left = element.offsetLeft  + start + 'px'
+						start *= 1.1
+				}, 100)
+
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="demo-div"></div>
+</body>
+</html>
